@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Cargar Fuentes-->
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.1.2-web/css/all.min.css"/>
+    <link rel="stylesheet" href="./fonts/dmsans/dmsans.css"/>
+    <!--Cargar Estilos-->
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/responsive.css"/>
+    <!--Cargar JS-->
+    <script src="./js/menu-mobile.js"></script>
+    <script src="./js/navbar-fixed.js"></script>
+    <script src="./js/dark.js"></script>
+
+    <link rel="icon" href="./img/iconoPestaña.png" type="image/png"> <!--icono de la web-->
+    <title>Aplicaciones multimedia </title>
+
+</head>
+
+<body>
+    <!--Boton modo oscuro-->
+    <div class="switcher">
+        <button class="switcher__btn">
+            <span class="switcher__icon-light">
+                <i class="fa-solid fa-moon switcher__icon"></i>
+            </span>
+
+            <span class="switcher__icon-dark">
+                <i class="fa-solid fa-lightbulb switcher__icon"></i>
+            </span>
+        </button>
+    </div>
+    <!--menu navegacion responsive-->
+    <div class="menu-mobile">
+        <header class="menu-mobile__header">
+            <div class="menu-mobile__container-logo">
+                <a class="menu-mobile__link-logo" href="#">
+                    <img class="menu-mobile__logo" src="./img/newtitle.png" />
+                </a>
+            </div>
+
+            <button class="menu-mobile__close">
+                <i class="menu-mobile__icon-close fa-solid fa-xmark"></i>
+            </button>
+        </header>
+
+        <div class="menu-mobile__body">
+            <nav class="menu-mobile__nav">
+                <ul class="menu-mobile__list">
+                    <li class="menu-mobile__item">
+                        <a href="index.html" class="menu-mobile__link">Inicio</a>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="temario.html" class="menu-mobile__link">Temario
+                        </a>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">Investigaciones
+                        <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="prueba-contenido.html" class="submenu-mobile__link"> Unidad 1 </a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="tareasU2.html" class="submenu-mobile__link"> Unidad 2 </a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="./tareasU3.html" class="submenu-mobile__link"> Unidad 3 </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">Prueba
+                        <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="examen.html" class="submenu-mobile__link"> Examen </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="criticanos.html" class="menu-mobile__link">Encuesta de satisfacción
+                        </a>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link"> Acerca de nosotros
+                        <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="../Acerca-de-nosotros/acerca-de-chimal.html" class="submenu-mobile__link"> Bruno Chimal  </a>
+                            </li>
+                            <li class="submenu-mobile-mobile__item">
+                                <a href="../Acerca-de-nosotros/acerca-de-francisco.html" class="submenu-mobile__link"> Francisco García</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="../Acerca-de-nosotros/acerca-de-daniel.html" class="submenu-mobile__link"> Salas Daniel </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+    <!--Layout Principal-->
+    <div class="layout">
+        <!--MENU-->
+        <section class="layout__menu">
+            <div class="menu__navbar">
+                <!--LOGO BARRA DE NAVEGACION-->
+                <div class="navbar__logo">
+                    <a href="#" class="navbar__link-logo">
+                        <img src="./img/newtitle.png" class="navbar__logo-light"/>
+                    </a>
+                </div>
+                <!--Booton de menu responsive-->
+                <div class="navbar__mobile-btn">
+                    <button class="mobile-btn__wrap">
+                        <span class="mobile-btn__line"></span>
+                        <span class="mobile-btn__line"></span>
+                        <span class="mobile-btn__line"></span>
+                    </button>
+                </div>
+                <!--BARRA DE NAVEGACION-->
+                <nav class="navbar__nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__title">Inicio</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="temario.html" class="nav__title">Temario
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">Investigaciones
+                            <i class="fa-solid fa-chevron-down nav__icon"></i>
+                            </a>
+                            <ul class="nav__submenu">
+                                <li class="submenu__item">
+                                    <a href="prueba-contenido.html" class="submenu__title"> Unidad 1 </a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="tareasU2.html" class="submenu__title"> Unidad 2 </a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="./tareasU3.html" class="submenu__title"> Unidad 3 </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">Prueba
+                            <i class="fa-solid fa-chevron-down nav__icon"></i>
+                            </a>
+                            <ul class="nav__submenu">
+                                <li class="submenu__item">
+                                    <a href="examen.html" class="submenu__title"> Examen </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="criticanos.html" class="nav__title">Encuesta de satisfacción
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">Acerca de Nosotros</a>
+                            <i class="fa-solid fa-chevron-down nav__icon"></i>
+                            </a>
+                            <ul class="nav__submenu">
+                                <li class="submenu__item">
+                                    <a href="../Acerca-de-nosotros/acerca-de-chimal.html" class="submenu__title"> Bruno Chimal  </a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="../Acerca-de-nosotros/acerca-de-francisco.html" class="submenu__title"> Francisco García</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="../Acerca-de-nosotros/acerca-de-daniel.html" class="submenu__title"> Salas Daniel </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </section> 
+        <h1>Cuestionario Interactivo</h1>
+  <form id="cuestionario"></form>
+  <button onclick="calcularPuntuacion()">Enviar Respuestas</button>
+  <p id="resultado"></p>
+
+  <script>
+  let contador = 0; // Contador para las veces que el usuario minimiza o cambia de pestaña
+
+  // Detectar cuando el documento pierde visibilidad (minimiza o cambia de pestaña)
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) {
+      contador++; // Incrementar el contador
+      document.getElementById('contadorTexto').textContent = contador; // Actualizar el texto en el recuadro
+    }
+  });
+
+  // Detectar cuando el documento pierde el foco (cambia de pestaña)
+  window.addEventListener('blur', () => {
+    contador++; // Incrementar el contador
+    document.getElementById('contadorTexto').textContent = contador; // Actualizar el texto en el recuadro
+  });
+
+    let preguntas = []; // Mover las preguntas fuera para acceso global
+
+    // Cargar el archivo de preguntas
+    fetch('preguntas.txt')
+      .then(response => response.text())
+      .then(text => {
+        const lines = text.split('\n');
+        const form = document.getElementById('cuestionario');
+
+        // Procesar el archivo línea por línea
+        lines.forEach(line => {
+          line = line.trim();
+          if (line.startsWith("Pregunta:")) {
+            pregunta = { texto: line.replace("Pregunta: ", ""), opciones: [], respuesta: "" };
+            preguntas.push(pregunta);
+          } else if (line.startsWith("Opciones:")) {
+            pregunta.opciones = line.replace("Opciones: ", "").split(", ");
+          } else if (line.startsWith("Respuesta:")) {
+            pregunta.respuesta = line.replace("Respuesta: ", "");
+          }
+        });
+
+        // Generar el cuestionario en HTML
+        preguntas.forEach((preg, index) => {
+          const preguntaDiv = document.createElement("div");
+          preguntaDiv.innerHTML = `<p>${preg.texto}</p>`;
+          
+          preg.opciones.forEach(opcion => {
+            const label = document.createElement("label");
+            const radio = document.createElement("input");
+            radio.type = "radio";
+            radio.name = "pregunta" + index;
+            radio.value = opcion;
+            label.appendChild(radio);
+            label.append(opcion);
+            preguntaDiv.appendChild(label);
+            preguntaDiv.appendChild(document.createElement("br"));
+          });
+
+          form.appendChild(preguntaDiv);
+        });
+      })
+      .catch(error => console.error('Error al cargar las preguntas:', error));
+
+    // Calcular la puntuación y mostrarla en pantalla
+    function calcularPuntuacion() {
+      const respuestas = document.querySelectorAll('input[type="radio"]:checked');
+      let puntuacion = 0;
+      let totalPreguntas = preguntas.length; // Total de preguntas es el tamaño del array
+
+      respuestas.forEach((respuesta, index) => {
+        if (respuesta.value === preguntas[index].respuesta) {
+          puntuacion++;
+        }
+      });
+
+      // Mostrar la puntuación en el elemento HTML
+      const resultado = document.getElementById('resultado');
+      resultado.textContent = `Tu puntuación es: ${puntuacion} de ${totalPreguntas}`;
+    }
+  </script>
+
+<!-- Recuadro para el contador -->
+<div id="contador" style="position: fixed; bottom: 20px; right: 20px; background-color: #f0f0f0; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+    <strong>Veces que cambias de pestaña o minimizas: </strong><span id="contadorTexto">0</span>
+  </div>
+  
+
+
+        <!--footer-->
+        <footer class="layout__footer">
+            <div class="footer__container">
+                <section class="footer__top"></section>
+
+                <section class="footer__main"></section>
+
+                <section class="footer__bottom">
+                    <div class="footer__copyright">
+                        <span class="copyright__text">
+                            &copy; 2024. Todos los derechos reservados a <a href="https://brunochimal.site">Bruno Chimal</a>.
+                        </span>
+                    </div>
+                    <div class="footer__links">
+                        <ul class="footer__flinks">
+                            <li class="flinks__item flink__item--separator">
+                                <a href="#" class="flinks__title">Politica de privacidad</a>
+                            </li>
+                            <li class="flinks__item">
+                                <a href="#" class="flinks__title">Terminos de uso</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </footer>
+
+</body>
+</html>

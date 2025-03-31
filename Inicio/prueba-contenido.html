@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Cargar Fuentes-->
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.1.2-web/css/all.min.css"/>
+    <link rel="stylesheet" href="./fonts/dmsans/dmsans.css"/>
+    <!--Cargar Estilos-->
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/responsive.css"/>
+    <!--Cargar JS-->
+    <script src="./js/menu-mobile.js"></script>
+    <script src="./js/navbar-fixed.js"></script>
+    <script src="./js/dark.js"></script>
+
+    <link rel="icon" href="./img/iconoPestaña.png" type="image/png"> <!--icono de la web-->
+    <title>Aplicaciones multimedia </title>
+
+</head>
+    <!--Boton modo oscuro-->
+    <div class="switcher">
+        <button class="switcher__btn">
+            <span class="switcher__icon-light">
+                <i class="fa-solid fa-moon switcher__icon"></i>
+            </span>
+
+            <span class="switcher__icon-dark">
+                <i class="fa-solid fa-lightbulb switcher__icon"></i>
+            </span>
+        </button>
+    </div>
+<!--menu navegacion responsive-->
+<div class="menu-mobile">
+    <header class="menu-mobile__header">
+        <div class="menu-mobile__container-logo">
+            <a class="menu-mobile__link-logo" href="#">
+                <img class="menu-mobile__logo" src="./img/newtitle.png" />
+            </a>
+        </div>
+
+        <button class="menu-mobile__close">
+            <i class="menu-mobile__icon-close fa-solid fa-xmark"></i>
+        </button>
+    </header>
+
+    <div class="menu-mobile__body">
+        <nav class="menu-mobile__nav">
+            <ul class="menu-mobile__list">
+                <li class="menu-mobile__item">
+                    <a href="index.html" class="menu-mobile__link">Inicio</a>
+                </li>
+
+                <li class="menu-mobile__item">
+                    <a href="temario.html" class="menu-mobile__link">Temario
+                    </a>
+                </li>
+
+                <li class="menu-mobile__item">
+                    <a href="#" class="menu-mobile__link">Investigaciones
+                    <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                    </a>
+                    <ul class="menu-mobile__submenu-mobile">
+                        <li class="submenu-mobile__item">
+                            <a href="prueba-contenido.html" class="submenu-mobile__link"> Unidad 1 </a>
+                        </li>
+                        <li class="submenu-mobile__item">
+                            <a href="tareasU2.html" class="submenu-mobile__link"> Unidad 2 </a>
+                        </li>
+                        <li class="submenu-mobile__item">
+                            <a href="./tareasU3.html" class="submenu-mobile__link"> Unidad 3 </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="menu-mobile__item">
+                    <a href="#" class="menu-mobile__link">Prueba
+                    <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                    </a>
+                    <ul class="menu-mobile__submenu-mobile">
+                        <li class="submenu-mobile__item">
+                            <a href="examen.html" class="submenu-mobile__link"> Examen </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="menu-mobile__item">
+                    <a href="criticanos.html" class="menu-mobile__link">Encuesta de satisfacción
+                    </a>
+                </li>
+
+                <li class="menu-mobile__item">
+                    <a href="#" class="menu-mobile__link"> Acerca de nosotros
+                    <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                    </a>
+                    <ul class="menu-mobile__submenu-mobile">
+                        <li class="submenu-mobile__item">
+                            <a href="../Acerca-de-nosotros/acerca-de-chimal.html" class="submenu-mobile__link"> Bruno Chimal  </a>
+                        </li>
+                        <li class="submenu-mobile-mobile__item">
+                            <a href="../Acerca-de-nosotros/acerca-de-francisco.html" class="submenu-mobile__link"> Francisco García</a>
+                        </li>
+                        <li class="submenu-mobile__item">
+                            <a href="../Acerca-de-nosotros/acerca-de-daniel.html" class="submenu-mobile__link"> Salas Daniel </a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+
+</div>
+
+<!--Layout Principal-->
+<body>
+    <section class="layout__menu">
+        <div class="menu__navbar">
+
+            <!--LOGO-->
+            <div class="navbar__logo">
+                <a href="index.html" class="navbar__link-logo">
+                    <img src="./img/newtitle.png" class="navbar__logo-light"/>
+                </a>
+            </div>
+            <!--Booton de menu responsive-->
+            <div class="navbar__mobile-btn">
+                <button class="mobile-btn__wrap">
+                    <span class="mobile-btn__line"></span>
+                    <span class="mobile-btn__line"></span>
+                    <span class="mobile-btn__line"></span>
+                </button>
+            </div>
+            <!--NAVEGACION-->
+            <nav class="navbar__nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__title">Inicio</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="temario.html" class="nav__title">Temario
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__title">Investigaciones
+                        <i class="fa-solid fa-chevron-down nav__icon"></i>
+                        </a>
+                        <ul class="nav__submenu">
+                            <li class="submenu__item">
+                                <a href="prueba-contenido.html" class="submenu__title">Unidad 1 </a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="tareasU2.html" class="submenu__title">Unidad 2 </a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="./tareasU3.html" class="submenu__title">Unidad 3 </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__title">Prueba
+                        <i class="fa-solid fa-chevron-down nav__icon"></i>
+                        </a>
+                        <ul class="nav__submenu">
+                            <li class="submenu__item">
+                                <a href="examen.html" class="submenu__title">Examen </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="criticanos.html" class="nav__title">Encuesta de satisfacción
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__title">Acerca de Nosotros</a>
+                        <i class="fa-solid fa-chevron-down nav__icon"></i>
+                        </a>
+                        <ul class="nav__submenu">
+                            <li class="submenu__item">
+                                <a href="../Acerca-de-nosotros/acerca-de-chimal.html" class="submenu__title"> Chimal Bruno  </a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="../Acerca-de-nosotros/acerca-de-francisco.html" class="submenu__title"> Jasso Francisco</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="../Acerca-de-nosotros/acerca-de-daniel.html" class="submenu__title"> Salas Daniel </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </section> 
+
+    
+    <header class="header">
+        <h1 class="header__title">UA: 1</h1>
+        <p class="header__subtitle">Aplicaciones multimedia con inteligencia artificial</p>
+    </header>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Aplicaciones Web</h2>
+                    <p class="section__paragraph">
+                        Las aplicaciones web son programas que se ejecutan en un navegador web. Permiten a los usuarios acceder a servicios y funcionalidades a través de Internet sin necesidad de instalar software adicional en sus dispositivos. Ejemplos comunes incluyen plataformas de correo electrónico, redes sociales y sistemas de gestión de contenido (CMS).
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Las aplicaciones web se caracterizan por su accesibilidad universal desde cualquier dispositivo con un navegador, su capacidad para ser actualizadas centralmente y su dependencia de una conexión a Internet.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/BUyaHveV9rY" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section> 
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Aplicaciones Cliente servidor</h2>
+                    <p class="section__paragraph">
+                        Las aplicaciones cliente-servidor se basan en una arquitectura en la que el cliente solicita servicios o recursos y el servidor los proporciona. Este modelo se utiliza en muchos sistemas, desde aplicaciones web hasta servicios de red
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        En este modelo, el cliente se encarga de la interfaz de usuario y la interacción, mientras que el servidor maneja la lógica de la aplicación y el almacenamiento de datos. La comunicación entre el cliente y el servidor suele realizarse a través de una red.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/KA7Ngcgth0Q?si=5kH1815gPSzJ_VYa" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section> 
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Aplicaciones Moviles</h2>
+                    <p class="section__paragraph">
+                        Las aplicaciones móviles están diseñadas para ejecutarse en dispositivos móviles como teléfonos inteligentes y tabletas. Estas aplicaciones pueden ofrecer una variedad de servicios, desde juegos hasta herramientas de productividad.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Las aplicaciones móviles pueden aprovechar las características del hardware del dispositivo, como la cámara, el GPS y los sensores. También pueden ser descargadas e instaladas a través de tiendas de aplicaciones como Google Play y la App Store.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/3_dwKqCsbis?si=9CS_dcjrax01Duu4" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section> 
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Aplicaciones Ubicuas</h2>
+                    <p class="section__paragraph">
+                        Las aplicaciones ubicuas están diseñadas para integrarse en el entorno de los usuarios de manera casi invisible. Estas aplicaciones buscan ofrecer servicios y funcionalidades sin interrumpir la experiencia del usuario
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Las aplicaciones ubicuas suelen ser parte de la infraestructura de un entorno inteligente, como casas inteligentes y oficinas automatizadas. Se enfocan en proporcionar una experiencia fluida y sin fricciones, aprovechando la conectividad y los sensores en el entorno.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/xMH3geT4Bds?si=HnhB24PkKt85hsxM" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section> 
+
+        <header class="header">
+            <h1 class="header__title">Unidad Tematica: 1.2</h1>
+            <p class="header__subtitle">Componentes de una aplicacion multimedia</p>
+        </header>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Imagen, Video y Texto</h2>
+                    <p class="section__paragraph">
+                        La imagen, el video y el texto son formas fundamentales de comunicación. La imagen transmite ideas, emociones o información de manera visual a través de dibujos, fotos o gráficos, siendo inmediata y evocadora. El video combina imágenes en movimiento y sonido para contar una historia o presentar información de manera dinámica y envolvente, permitiendo una mayor interacción. El texto, por su parte, utiliza palabras escritas para comunicar de forma directa, detallada y estructurada, permitiendo una mayor profundidad en la explicación de ideas o conceptos. Juntas, estas tres formas de comunicación crean una experiencia multimedia completa.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Las características de la imagen incluyen su capacidad para transmitir información visual de forma rápida, generar emociones y permitir múltiples interpretaciones. El video combina imágenes en movimiento y sonido, lo que lo hace dinámico y atractivo, con la posibilidad de contar historias complejas en un formato breve o extenso. El texto se caracteriza por su precisión y estructura, permitiendo la transmisión de ideas complejas y detalladas, y es flexible en cuanto a su longitud y estilo. Cada uno de estos medios tiene fortalezas específicas que los hacen adecuados para diferentes contextos de comunicación.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/e-lQYKYbOtI?si=3fHAILHASgnKnOjk" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Tipos de Animacion</h2>
+                    <p class="section__paragraph">
+                        Existen varios tipos de animación que se utilizan para crear movimiento y dar vida a personajes o conceptos. La animación tradicional se realiza a mano, dibujando cada cuadro de la secuencia. La animación por computadora en 3D utiliza gráficos tridimensionales generados digitalmente para crear efectos realistas. La animación en 2D digital es similar a la tradicional, pero se realiza usando software, lo que agiliza el proceso. También está la animación stop-motion, que se crea fotografiando objetos físicos en pequeños movimientos entre cada toma, y la animación cut-out, donde se mueven recortes de papel o formas planas
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        La animación se caracteriza por su capacidad para crear la ilusión de movimiento a través de una secuencia de imágenes o fotogramas. Permite gran libertad creativa, ya que no está limitada por las leyes físicas del mundo real. Puede ser visualmente atractiva y variada en estilo, desde lo realista hasta lo abstracto. Además, la animación facilita la narración de historias complejas y puede evocar emociones intensas, combinando aspectos visuales, sonoros y narrativos.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/WJB358BWyZo?si=pYN9T3rwENaV9dfF" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section> 
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Audios, musicalizacion e incidentales</h2>
+                    <p class="section__paragraph">
+                        El audio en medios audiovisuales puede ser de varios tipos, como el audio diegético, que proviene de elementos presentes en la escena (como diálogos o sonidos ambientales), y el audio no diegético, que es externo a la narrativa (como la música de fondo o efectos sonoros). La musicalización consiste en la creación o selección de música para acompañar una escena, ambientar emociones o intensificar acciones. Los sonidos incidentales son efectos breves y específicos que resaltan momentos clave, como el ruido de una puerta cerrándose, pasos o un golpe, contribuyendo al realismo y ritmo de la historia.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        El audio es un componente esencial en la comunicación audiovisual, ya que enriquece la experiencia sensorial y contextualiza el contenido visual. La musicalización tiene la capacidad de influir en las emociones del espectador, creando atmósferas que amplifican el mensaje o la intención de una escena. Los sonidos incidentales destacan por ser breves, precisos y funcionales, ayudando a enfatizar momentos clave o a dar pistas sobre lo que está ocurriendo en la historia, mejorando la inmersión del espectador.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/F7r9JK-5ko0?si=Fgd6g29LVXLG8s8_" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section> 
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Podcast</h2>
+                    <p class="section__paragraph">
+                        Existen varios tipos de podcast según su formato y contenido. Los podcasts de entrevistas son aquellos en los que un anfitrión conversa con invitados sobre temas específicos. Los podcasts narrativos cuentan historias, ya sea de ficción o no ficción, y suelen estar muy estructurados, como los audiodocumentales. Los podcasts educativos ofrecen información sobre temas específicos para enseñar o informar a la audiencia. También están los podcasts conversacionales, donde varios presentadores discuten temas variados, y los podcasts monólogo, donde una sola persona presenta sus pensamientos o información sobre un tema.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Los podcasts son caracterizados por su formato de audio descargable o transmitido en línea, lo que permite a los oyentes acceder a ellos en cualquier momento. Suelen ser de duración flexible, variando desde episodios cortos de 5 minutos hasta largas conversaciones de más de una hora. Los podcasts tienen un estilo informal, permitiendo una conexión cercana con la audiencia. Pueden ser producidos profesionalmente o de forma amateur, con una gran variedad de temáticas. Además, son versátiles y accesibles, ya que los usuarios pueden escuchar mientras realizan otras actividades
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/2YKIGatSQpQ?si=KDfpHaYWdtcBoN0G" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section> 
+
+        <header class="header">
+            <h1 class="header__title">Unidad Tematica: 1.3</h1>
+            <p class="header__subtitle">Aplicaciones con inteligencia artificial</p>
+        </header>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Videos con el uso de Deep Learning</h2>
+                    <p class="section__paragraph">
+                        Los videos con el uso de deep learning emplean redes neuronales profundas para analizar, procesar o generar contenido audiovisual de manera automatizada. Estas redes aprenden de grandes cantidades de datos visuales, permitiendo identificar patrones complejos sin intervención humana. Esto hace posible tareas avanzadas como el reconocimiento de objetos, el análisis de escenas o la creación de videos sintéticos.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Entre sus principales características, destaca la capacidad de reconocimiento automático de objetos y personas en videos, así como el análisis preciso del movimiento dentro de las secuencias. Además, los modelos pueden clasificar escenas y extraer información detallada del entorno visual. Con tecnologías como las redes generativas adversariales (GANs), también es posible la creación de videos artificiales..
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/s0SbvGiG28w?si=WIdB45KtiLm70Qg_" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Audios con reconocimiento de voz</h2>
+                    <p class="section__paragraph">
+                        El reconocimiento de voz es una tecnología que utiliza algoritmos de deep learning para convertir el habla humana en texto o en comandos ejecutables. A través de redes neuronales profundas, esta tecnología analiza patrones en las ondas sonoras, permitiendo la identificación de palabras y frases en tiempo real
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Entre sus características principales, se encuentra la capacidad de procesar audio en tiempo real, lo que permite respuestas rápidas y naturales en la comunicación. Además, los sistemas de reconocimiento de voz son capaces de adaptarse a diferentes acentos y dialectos, mejorando su precisión con el tiempo mediante el aprendizaje continuo.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/EfviQo3zVjM?si=wZBQp8UFtvQoiwNO" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Imagenes con descripcion textual</h2>
+                    <p class="section__paragraph">
+                        se refiere a la técnica que utiliza algoritmos de procesamiento de lenguaje natural (NLP) y deep learning para generar descripciones automáticas de contenido visual. Este enfoque permite a las máquinas analizar imágenes y crear narrativas que reflejan lo que se ve en ellas.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Se destaca la capacidad de reconocer objetos, personas y escenas en una imagen, lo que permite generar descripciones precisas y detalladas. Además, estos sistemas pueden adaptarse a diferentes estilos de escritura y contextos, produciendo descripciones que varían desde explicaciones sencillas hasta narrativas más complejas.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/QHjj6Pbb6F8?si=NilPbb8OE97vO-GC" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Animaciones con Inteligencia Artificial</h2>
+                    <p class="section__paragraph">
+                        se refiere al uso de algoritmos de aprendizaje automático y deep learning para crear, editar y mejorar contenido animado. Esta tecnología permite automatizar tareas como la generación de personajes, la sincronización de movimientos y la creación de escenas, lo que facilita la producción de animaciones de alta calidad de manera más eficiente.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Entre sus características principales se incluye la capacidad de generación automática de movimientos, donde los modelos de IA pueden simular la dinámica del movimiento humano o de objetos de manera realista. Además, la IA puede ayudar en la creación de personajes y fondos, generando visuales únicos a partir de descripciones textuales o conceptos iniciales.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/aLZdeYMTDJg?si=7N6fyXpZqtg44uh_" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <header class="header">
+            <h1 class="header__title">Unidad Tematica: 1.4</h1>
+            <p class="header__subtitle">Aplicaciones con asistentes interactivos</p>
+        </header>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Chatbot en una aplicacion multimedia</h2>
+                    <p class="section__paragraph">
+                        son programas de inteligencia artificial diseñados para interactuar con los usuarios a través de texto o voz, proporcionando respuestas automatizadas y asistencia en tiempo real. Integrados en plataformas de comunicación, redes sociales y sitios web, estos chatbots pueden ayudar a mejorar la experiencia del usuario al ofrecer información, resolver dudas o guiar a los usuarios en la navegación de contenido multimedia.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Entre sus características, se destaca la capacidad de comprensión del lenguaje natural, que permite a los chatbots interpretar y responder a las consultas de los usuarios de manera efectiva. Además, pueden personalizar las interacciones según las preferencias del usuario, proporcionando respuestas más relevantes y contextuales.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/kxe0WOkGOvE?si=Lx32n_E0nw44-Nx5" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Uso del lenguaje natural en los asistentes conversionales</h2>
+                    <p class="section__paragraph">
+                        Se refiere a la capacidad de estos sistemas para comprender y procesar el lenguaje humano de manera que imiten una conversación natural. Estos asistentes utilizan algoritmos de procesamiento de lenguaje natural (NLP) y deep learning para interpretar, analizar y generar respuestas a las preguntas y comandos de los usuarios.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Entre sus características principales se incluye la comprensión contextual, que permite a los asistentes entender el significado detrás de las palabras en función de la conversación previa y el contexto. Además, tienen la capacidad de gestionar múltiples idiomas y dialectos, lo que los hace accesibles a un público más amplio.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/RACMePfrhfM?si=PDUKB0RVP_w45uJK" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Chat GPT y la generacion de textos</h2>
+                    <p class="section__paragraph">
+                        son procesos que involucran el uso de modelos de lenguaje basados en inteligencia artificial para crear contenido textual coherente y relevante. ChatGPT, desarrollado por OpenAI, utiliza una arquitectura de red neuronal conocida como transformador para entender y generar lenguaje natural. Este modelo es capaz de responder preguntas, redactar ensayos, crear diálogos y producir contenido en una variedad de estilos y temas, lo que lo convierte en una herramienta versátil para diversas aplicaciones, desde asistencia en escritura hasta generación de contenido creativo.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Entre las características destacadas de ChatGPT se incluye su capacidad para entender el contexto, lo que le permite generar respuestas más precisas y relevantes en función de la conversación. También posee la habilidad de adaptarse a diferentes estilos de escritura, ya sea formal, informal, técnico o narrativo, según lo requiera el usuario.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/Kl9inx183pE?si=zkajob_QxqY34mhe" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Reconocimiento de audio y video</h2>
+                    <p class="section__paragraph">
+                        El reconocimiento de audio y video es una tecnología que utiliza algoritmos de inteligencia artificial y deep learning para analizar y extraer información de señales de audio y secuencias visuales. En el caso del reconocimiento de audio, se refiere a la capacidad de convertir el habla o sonidos en texto o comandos ejecutables, facilitando la interacción con dispositivos y aplicaciones mediante el procesamiento del lenguaje natural.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Entre las características clave del reconocimiento de audio se encuentra su capacidad de transcripción en tiempo real, lo que permite la conversión instantánea de la voz en texto. Además, estos sistemas pueden adaptarse a diferentes acentos y dialectos, mejorando su precisión con el tiempo. En cuanto al reconocimiento de video, destaca la detección y clasificación de objetos, que permite identificar elementos específicos en una escena, así como el seguimiento de movimiento, que ayuda a analizar dinámicas en el contenido visual.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/GC8DmkU0XZM?si=9KmZm1snDzQNxw7j" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!--footer-->
+        <footer class="layout__footer">
+            <div class="footer__container">
+                <section class="footer__top"></section>
+
+                <section class="footer__main"></section>
+
+                <section class="footer__bottom">
+                    <div class="footer__copyright">
+                        <span class="copyright__text">
+                            &copy; 2024. Todos los derechos reservados a <a href="https://brunochimal.site">Bruno Chimal</a>.
+                        </span>
+                    </div>
+                    <div class="footer__links">
+                        <ul class="footer__flinks">
+                            <li class="flinks__item flink__item--separator">
+                                <a href="#" class="flinks__title">Politica de privacidad</a>
+                            </li>
+                            <li class="flinks__item">
+                                <a href="#" class="flinks__title">Terminos de uso</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </footer>
+
+</body>
+</html>

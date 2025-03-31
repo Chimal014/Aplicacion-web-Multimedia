@@ -1,0 +1,39 @@
+Pregunta: 1.- ¿Que permiten las aplicaciones web?
+Opciones: Acceder a servicios y funcionalidades a través de Internet sin necesidad de instalar software adicional en sus dispositivos., Permiten a los usuarios descargar software directamente a sus dispositivos sin conexión a internet, Permiten a los usuarios realizar llamadas telefónicas sin necesidad de una red móvil o conexión a internet., Permiten a los usuarios acceder a contenido exclusivo sin necesidad de autenticación o registro. 
+Respuesta: Acceder a servicios y funcionalidades a través de Internet sin necesidad de instalar software adicional en sus dispositivos. 
+
+Pregunta: 2.- ¿Qué es una aplicación web?
+Opciones: a) Un programa que se instala en el sistema operativo, b) Un sitio web que proporciona servicios interactivos, c) Un archivo descargable, d) Un dispositivo de hardware
+Respuesta: b) Un sitio web que proporciona servicios interactivos
+
+Pregunta: 3.- ¿Cuál de las siguientes es una ventaja de las aplicaciones web?
+Opciones: a) No requieren conexión a internet, b) Son accesibles desde cualquier dispositivo con un navegador, c) Necesitan instalación en cada dispositivo, d) Solo funcionan en sistemas operativos específicos
+Respuesta: b) Son accesibles desde cualquier dispositivo con un navegador
+
+Pregunta: 4.- ¿Qué lenguaje de programación es comúnmente utilizado para el desarrollo de aplicaciones web?
+Opciones: a) C++, b) JavaScript, c) Python, d) Swift
+Respuesta: b) JavaScript
+
+Pregunta: 5.- ¿Qué permite una aplicación web?
+Opciones: a) Ejecutar programas sin conexión, b) Interactuar con bases de datos en tiempo real, c) Realizar llamadas telefónicas sin red móvil, d) Descargar software automáticamente
+Respuesta: b) Interactuar con bases de datos en tiempo real
+
+Pregunta: 6.- ¿Cuál es una característica clave de las aplicaciones web progresivas (PWA)?
+Opciones: a) Solo funcionan en navegadores específicos, b) Pueden funcionar sin conexión a internet, c) Requieren instalación manual, d) No pueden enviar notificaciones push
+Respuesta: b) Pueden funcionar sin conexión a internet
+
+Pregunta:  7.-¿Qué tecnología se utiliza para el diseño responsivo en aplicaciones web?
+Opciones: a) HTML, b) CSS, c) SQL, d) PHP
+Respuesta: b) CSS
+
+Pregunta: 8.- ¿Qué es AJAX en el contexto de aplicaciones web?
+Opciones: a) Un lenguaje de programación, b) Una técnica para actualizar partes de una página web sin recargarla, c) Un tipo de base de datos, d) Un servidor web
+Respuesta: b) Una técnica para actualizar partes de una página web sin recargarla
+
+Pregunta: 9.- ¿Cuál es una desventaja de las aplicaciones web?
+Opciones: a) No pueden ser actualizadas, b) Dependencia de la conexión a internet, c) No pueden ser accedidas desde dispositivos móviles, d) Requieren hardware especializado 
+Respuesta: b) Dependencia de la conexión a internet
+
+Pregunta: 10.- ¿Qué es una API en el contexto de aplicaciones web?
+Opciones: a) Un tipo de servidor, b) Una interfaz para que las aplicaciones se comuniquen entre sí, c) Un lenguaje de programación, d) Un sistema operativo
+Respuesta: b) Una interfaz para que las aplicaciones se comuniquen entre sí

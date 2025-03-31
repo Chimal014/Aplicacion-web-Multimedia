@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Cargar Fuentes-->
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.1.2-web/css/all.min.css"/>
+    <link rel="stylesheet" href="./fonts/dmsans/dmsans.css"/>
+    <!--Cargar Estilos-->
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/responsive.css"/>
+    <!--Cargar JS-->
+    <script src="./js/menu-mobile.js"></script>
+    <script src="./js/navbar-fixed.js"></script>
+    <script src="./js/dark.js"></script>
+
+    <link rel="icon" href="./img/iconoPestaña.png" type="image/png"> <!--icono de la web-->
+    <title>Aplicaciones multimedia </title>
+
+</head>
+<body>
+    <!--Boton modo oscuro-->
+    <div class="switcher">
+        <button class="switcher__btn">
+            <span class="switcher__icon-light">
+                <i class="fa-solid fa-moon switcher__icon"></i>
+            </span>
+
+            <span class="switcher__icon-dark">
+                <i class="fa-solid fa-lightbulb switcher__icon"></i>
+            </span>
+        </button>
+    </div>
+    <!--menu navegacion responsive-->
+    <div class="menu-mobile">
+        <header class="menu-mobile__header">
+            <div class="menu-mobile__container-logo">
+                <a class="menu-mobile__link-logo" href="#">
+                    <img class="menu-mobile__logo" src="./img/newtitle.png" />
+                </a>
+            </div>
+
+            <button class="menu-mobile__close">
+                <i class="menu-mobile__icon-close fa-solid fa-xmark"></i>
+            </button>
+        </header>
+
+        <div class="menu-mobile__body">
+            <nav class="menu-mobile__nav">
+                <ul class="menu-mobile__list">
+                    <li class="menu-mobile__item">
+                        <a href="index.html" class="menu-mobile__link">Inicio</a>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="temario.html" class="menu-mobile__link">Temario
+                        </a>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">Investigaciones
+                        <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="prueba-contenido.html" class="submenu-mobile__link"> Unidad 1 </a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="tareasU2.html" class="submenu-mobile__link"> Unidad 2 </a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="./tareasU3.html" class="submenu-mobile__link"> Unidad 3 </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">Prueba
+                        <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="examen.html" class="submenu-mobile__link"> Examen </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="criticanos.html" class="menu-mobile__link">Encuesta de satisfacción
+                        </a>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link"> Acerca de nosotros
+                        <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="../Acerca-de-nosotros/acerca-de-chimal.html" class="submenu-mobile__link"> Bruno Chimal  </a>
+                            </li>
+                            <li class="submenu-mobile-mobile__item">
+                                <a href="../Acerca-de-nosotros/acerca-de-francisco.html" class="submenu-mobile__link"> Francisco García</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="../Acerca-de-nosotros/acerca-de-daniel.html" class="submenu-mobile__link"> Salas Daniel </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+    <!--Layout Principal-->
+    <section class="layout__menu">
+        <div class="menu__navbar">
+
+            <!--LOGO-->
+            <div class="navbar__logo">
+                <a href="index.html" class="navbar__link-logo">
+                    <img src="./img/newtitle.png" class="navbar__logo-light"/>
+                </a>
+            </div>
+            <!--Booton de menu responsive-->
+            <div class="navbar__mobile-btn">
+                <button class="mobile-btn__wrap">
+                    <span class="mobile-btn__line"></span>
+                    <span class="mobile-btn__line"></span>
+                    <span class="mobile-btn__line"></span>
+                </button>
+            </div>
+            <!--NAVEGACION-->
+            <nav class="navbar__nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__title">Inicio</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="temario.html" class="nav__title">Temario
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__title">Investigaciones
+                        <i class="fa-solid fa-chevron-down nav__icon"></i>
+                        </a>
+                        <ul class="nav__submenu">
+                            <li class="submenu__item">
+                                <a href="prueba-contenido.html" class="submenu__title">Unidad 1 </a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="tareasU2.html" class="submenu__title">Unidad 2 </a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="./tareasU3.html" class="submenu__title">Unidad 3 </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__title">Prueba
+                        <i class="fa-solid fa-chevron-down nav__icon"></i>
+                        </a>
+                        <ul class="nav__submenu">
+                            <li class="submenu__item">
+                                <a href="examen.html" class="submenu__title">Examen </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="criticanos.html" class="nav__title">Encuesta de satisfacción
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#" class="nav__title">Acerca de Nosotros</a>
+                        <i class="fa-solid fa-chevron-down nav__icon"></i>
+                        </a>
+                        <ul class="nav__submenu">
+                            <li class="submenu__item">
+                                <a href="../Acerca-de-nosotros/acerca-de-chimal.html" class="submenu__title"> Chimal Bruno  </a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="../Acerca-de-nosotros/acerca-de-francisco.html" class="submenu__title"> Jasso Francisco</a>
+                            </li>
+                            <li class="submenu__item">
+                                <a href="../Acerca-de-nosotros/acerca-de-daniel.html" class="submenu__title"> Salas Daniel </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </section> 
+
+    
+    <header class="header">
+        <h1 class="header__title">UA: 2</h1>
+        <p class="header__subtitle">Aplicaciones multimedia y las tecnologias de desarrollo emergente</p>
+    </header>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Lenguajes de programacion graficos y web</h2>
+                    <p class="section__paragraph">
+                        <b>Lenguajes de Programación Gráficos: </b> Los lenguajes de programación gráficos están diseñados para crear y manipular gráficos y visualizaciones. Estos lenguajes permiten a los desarrolladores crear interfaces de usuario, animaciones y gráficos complejos. <br/>
+                        <b>Lenguajes de Programación Web: </b> Los lenguajes de programación web son esenciales para el desarrollo de sitios y aplicaciones web. Estos lenguajes permiten crear contenido dinámico y interactivo que se ejecuta en navegadores web. Los lenguajes más comunes incluyen HTML (para la estructura de la página), CSS (para el diseño y la presentación) y JavaScript (para la interactividad y la lógica del cliente).
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        <b>Lenguajes de Programación Gráficos: </b> Los lenguajes de programación gráficos están diseñados para facilitar la creación y manipulación de gráficos y visualizaciones. Estos lenguajes permiten a los desarrolladores generar interfaces de usuario, animaciones y gráficos complejos de manera eficiente. <br/>
+                        <b> Lenguajes de Programación Web </b> son esenciales para el desarrollo de sitios y aplicaciones web dinámicas e interactivas. HTML se utiliza para definir la estructura y el contenido de las páginas web, mientras que CSS se encarga del diseño y la presentación visual. JavaScript añade interactividad y lógica del lado del cliente, permitiendo la creación de experiencias de usuario ricas y dinámicas.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/pqfAvZC5clw?si=Iy6dd1YEmr038rVM" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section> 
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Ambientes de desarrollo para web</h2>
+                    <p class="section__paragraph">
+                        Un ambiente de desarrollo para web es un entorno configurado con las herramientas y tecnologías necesarias para crear, probar y desplegar aplicaciones web. Estos ambientes suelen incluir un editor de código, un servidor web local, y herramientas de control de versiones como Git. Además, pueden integrar sistemas de gestión de bases de datos y entornos de ejecución para lenguajes de programación como JavaScript, Python, PHP, entre otros.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Estos ambientes incluyen un editor de código, que permite a los desarrolladores escribir y modificar el código fuente de sus aplicaciones. Además, suelen contar con un servidor web local, que facilita la previsualización de los cambios en tiempo real sin necesidad de desplegar la aplicación en un servidor remoto.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/9GaVCsPuDB4?si=joCbm4p_12XFlDov" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section> 
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Ambientes de desarrollo dispositivos moviles</h2>
+                    <p class="section__paragraph">
+                        es un entorno configurado con las herramientas necesarias para crear, probar y desplegar aplicaciones móviles. Estos ambientes incluyen un IDE (Entorno de Desarrollo Integrado) como Android Studio o Xcode, que proporcionan un editor de código, herramientas de depuración y emuladores para probar aplicaciones en diferentes dispositivos y versiones de sistemas operativos.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Las características clave de estos ambientes incluyen la capacidad de previsualizar y probar aplicaciones en tiempo real, acceso a bibliotecas y frameworks específicos para móviles, y herramientas para optimizar el rendimiento y la interfaz de usuario.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/2etL7xYhIAE?si=xTiomAGwAqT-kPRM" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section> 
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Arquitectura de las aplicaciones multimedia</h2>
+                    <p class="section__paragraph">
+                        se refiere al diseño y estructura de sistemas que integran diversos tipos de contenido multimedia, como texto, imágenes, audio y video, para crear experiencias interactivas y dinámicas. Estas aplicaciones suelen estar compuestas por varios componentes que trabajan juntos para gestionar, procesar y presentar contenido multimedia de manera eficiente.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Las características clave de la arquitectura de aplicaciones multimedia incluyen la capacidad de manejar grandes volúmenes de datos multimedia, la integración de tecnologías de transmisión en tiempo real, y la compatibilidad con múltiples formatos y dispositivos. Además, estas arquitecturas deben ser escalables para soportar un gran número de usuarios simultáneos y ofrecer una experiencia de usuario fluida y de alta calidad.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/xDaxtt8GmBA?si=d88kdDhsez5BRTvM" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section> 
+
+        <header class="header">
+            <h1 class="header__title">Unidad Tematica: 2.2</h1>
+            <p class="header__subtitle"> Tecnologias multimedia para la web</p>
+        </header>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Viajes virtuales 2D y 3D</h2>
+                    <p class="section__paragraph">
+                        Los viajes virtuales 2D y 3D son experiencias inmersivas que permiten a los usuarios explorar destinos y entornos sin necesidad de desplazarse físicamente. Utilizan tecnologías como fotografías de 360 grados, videos inmersivos, realidad aumentada (AR) y realidad virtual (VR) para crear simulaciones visuales y sensoriales que replican la presencia física en el destino.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        proporcionan una experiencia más inmersiva y realista mediante el uso de tecnologías de realidad virtual y aumentada. Estos viajes permiten a los usuarios interactuar con el entorno virtual, moverse libremente y explorar detalles específicos del destino. Utilizan dispositivos como gafas VR y simuladores para ofrecer una sensación de presencia física en el lugar.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/VJhSCKg9aeo?si=YPJD-m4lw3kliR8l" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Carruseles de contenido</h2>
+                    <p class="section__paragraph">
+                        Un carrusel de contenido es un componente de diseño web que permite mostrar múltiples elementos, como imágenes, videos o texto, en un espacio limitado de una página web. Los usuarios pueden navegar a través de estos elementos deslizando o haciendo clic en flechas de navegación. Este formato es especialmente útil para presentar una serie de productos, destacar varias características de un servicio o contar una historia de manera visualmente atractiva.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        pueden configurarse para avanzar automáticamente o mediante la interacción del usuario, añadiendo movimiento y dinamismo a la página. Su flexibilidad permite incluir diversos tipos de contenido, lo que los hace muy versátiles. Al ofrecer múltiples elementos en un solo componente, los carruseles pueden captar y mantener la atención del usuario por más tiempo, mejorando así el engagement y la experiencia general del usuario en el sitio web.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/FAXmY7N0wvM?si=IoJ3Kxbozp6bQfS_" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section> 
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Gestores de contenido</h2>
+                    <p class="section__paragraph">
+                        Un gestor de contenidos, o CMS (Content Management System), es una aplicación de software diseñada para facilitar la creación, edición, organización y publicación de contenido digital en un sitio web. Estos sistemas permiten a los usuarios manejar el contenido de manera eficiente sin necesidad de conocimientos avanzados en programación.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Los CMS son extensibles y escalables, permitiendo añadir funciones según las necesidades del usuario. También incluyen soporte SEO, ayudando a optimizar el contenido para los motores de búsqueda. Otra característica importante es que no requieren maquetación previa, simplificando el proceso de diseño web. Los CMS son rápidos y funcionales, con tiempos de carga veloces que mejoran la experiencia del usuario. Además, permiten la gestión de roles y permisos, facilitando la colaboración entre múltiples
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/Aqbr1vje4fo?si=fVcNQ2G0DykuZRA0" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section> 
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Servicios en la nube </h2>
+                    <p class="section__paragraph">
+                        Los servicios en la nube son soluciones tecnológicas que permiten a los usuarios acceder a recursos informáticos y servicios de TI a través de Internet, sin necesidad de instalar software adicional en sus dispositivos. Estos servicios incluyen infraestructura, plataformas y software que se alojan en servidores remotos gestionados por proveedores externos.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Entre las características principales de los servicios en la nube se encuentran su accesibilidad desde cualquier lugar y dispositivo con conexión a Internet, su escalabilidad, que permite ajustar los recursos según las necesidades del usuario, y su seguridad, ya que los proveedores se encargan de las actualizaciones y la protección contra amenazas. Además, los servicios en la nube ofrecen flexibilidad y eficiencia, permitiendo a las empresas reducir costos operativos y mejorar su capacidad de respuesta a las demandas del mercado
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/h4Af5bbFAq0?si=-2b4Le5BCujgxcp4" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section> 
+
+        <header class="header">
+            <h1 class="header__title">Unidad Tematica: 2.3</h1>
+            <p class="header__subtitle">Realidad mixta en entornos multimedia</p>
+        </header>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Componentes de realidad mixta en aplicaciones multimedia </h2>
+                    <p class="section__paragraph">
+                        La realidad mixta es una tecnología que combina elementos del mundo real y virtual para crear nuevos entornos interactivos. En aplicaciones multimedia, la realidad mixta permite que los objetos físicos y digitales coexistan y se interactúen en tiempo real. Esto se logra mediante el uso de dispositivos avanzados como gafas o cascos especializados, que superponen elementos 3D generados digitalmente sobre el entorno real.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Las características clave de la realidad mixta incluyen la capacidad de fusionar el mundo físico con el digital, la interacción en tiempo real con objetos virtuales y reales, y la necesidad de herramientas como visores para generar esta interacción. Además, la realidad mixta permite una comunicación fluida y la incorporación de objetos gráficos en el mundo real, o viceversa, proporcionando una experiencia inmersiva y detallada
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/JAKvLEdLpbg?si=OKFil4U98XCy2HMd" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">La animacion 3D y la simulacion</h2>
+                    <p class="section__paragraph">
+                        La animación 3D es una técnica que permite crear imágenes en movimiento en un entorno tridimensional, utilizando modelos digitales que simulan el movimiento en un espacio físico1. Esta técnica se basa en la manipulación de objetos y personajes en un espacio 3D, lo que añade una percepción de profundidad y realismo a las animaciones.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Las características principales de la animación 3D incluyen la capacidad de crear movimientos fluidos y realistas, la utilización de software especializado para modelar y esculpir digitalmente, y la posibilidad de aplicar texturas y efectos de iluminación para mejorar la apariencia visual. La animación 3D se utiliza ampliamente en diversos campos, como el cine, los videojuegos, la publicidad y la educación, debido a su versatilidad y capacidad para crear experiencias visuales inmersivas
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/Wq2R32dGEjo?si=_WeTt4vFsk9DlP10" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">La impresion 3d en aplicaciones multimedia </h2>
+                    <p class="section__paragraph">
+                        La impresión 3D es una tecnología revolucionaria que permite la creación de objetos tridimensionales a partir de un modelo digital, mediante un proceso de fabricación aditiva en el cual capas sucesivas de material son depositadas para formar el objeto final1. En aplicaciones multimedia, la impresión 3D se utiliza para crear prototipos, modelos y componentes personalizados que mejoran la interacción y la experiencia del usuario.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Las características principales de la impresión 3D incluyen la capacidad de producir geometrías complejas que serían difíciles o imposibles de fabricar mediante métodos tradicionales, la personalización masiva, y la reducción de costos y tiempos de producción. Además, la impresión 3D permite la utilización de una amplia variedad de materiales, desde plásticos y metales hasta cerámicas y biomateriales, lo que amplía sus aplicaciones en campos como la medicina, la arquitectura, el diseño y la educación
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/EADdi2EalvE?si=TfI9JlDHsyMaQrQ9" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Aplicaciones de simulacion con realidad mixta</h2>
+                    <p class="section__paragraph">
+                        Las aplicaciones de simulación con realidad mixta combinan elementos del mundo real y virtual para crear entornos interactivos y coherentes, donde los usuarios pueden interactuar con objetos tanto físicos como digitales en tiempo real1. Estas aplicaciones utilizan dispositivos avanzados como cascos y gafas de realidad mixta para mapear el entorno físico y superponer información virtual sobre él
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Las características principales de estas aplicaciones incluyen la capacidad de fusionar el mundo físico con el digital, permitiendo una interacción fluida y natural entre ambos. Además, ofrecen traducciones simultáneas y una comunicación en tiempo real, lo que mejora la experiencia del usuario. Estas aplicaciones son especialmente útiles en campos como la educación, la medicina y la industria, donde pueden simular escenarios complejos y proporcionar una formación práctica sin riesgos
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/ex7t_AP0VMg?si=lxTxjC57GV8ls_m0" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+       
+        <!--footer-->
+        <footer class="layout__footer">
+            <div class="footer__container">
+                <section class="footer__top"></section>
+
+                <section class="footer__main"></section>
+
+                <section class="footer__bottom">
+                    <div class="footer__copyright">
+                        <span class="copyright__text">
+                            &copy; 2024. Todos los derechos reservados a <a href="https://brunochimal.site">Bruno Chimal</a>.
+                        </span>
+                    </div>
+                    <div class="footer__links">
+                        <ul class="footer__flinks">
+                            <li class="flinks__item flink__item--separator">
+                                <a href="#" class="flinks__title">Politica de privacidad</a>
+                            </li>
+                            <li class="flinks__item">
+                                <a href="#" class="flinks__title">Terminos de uso</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </footer>
+
+
+</body>
+</html>

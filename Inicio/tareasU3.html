@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Cargar Fuentes-->
+    <link rel="stylesheet" href="./fonts/fontawesome-free-6.1.2-web/css/all.min.css"/>
+    <link rel="stylesheet" href="./fonts/dmsans/dmsans.css"/>
+    <!--Cargar Estilos-->
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <!--<link rel="stylesheet" href="./css/dark.css"/>-->
+    <link rel="stylesheet" href="./css/responsive.css"/>
+    <!--Cargar JS-->
+    <script src="./js/carrusel.js" defer></script>
+    <script src="./js/menu-mobile.js"></script>
+    <script src="./js/navbar-fixed.js"></script>
+    <script src="./js/dark.js"></script>
+
+
+    <link rel="icon" href="./img/iconoPestaña.png" type="image/png"> <!--icono de la web-->
+    <title>Aplicaciones multimedia </title>
+
+</head>
+
+<body>
+    <!--Boton modo oscuro-->
+    <div class="switcher">
+        <button class="switcher__btn">
+            <span class="switcher__icon-light">
+                <i class="fa-solid fa-moon switcher__icon"></i>
+            </span>
+
+            <span class="switcher__icon-dark">
+                <i class="fa-solid fa-lightbulb switcher__icon"></i>
+            </span>
+        </button>
+    </div>
+    <!--menu navegacion responsive-->
+    <div class="menu-mobile">
+        <header class="menu-mobile__header">
+            <div class="menu-mobile__container-logo">
+                <a class="menu-mobile__link-logo" href="#">
+                    <img class="menu-mobile__logo" src="./img/newtitle.png" />
+                </a>
+            </div>
+
+            <button class="menu-mobile__close">
+                <i class="menu-mobile__icon-close fa-solid fa-xmark"></i>
+            </button>
+        </header>
+
+        <div class="menu-mobile__body">
+            <nav class="menu-mobile__nav">
+                <ul class="menu-mobile__list">
+                    <li class="menu-mobile__item">
+                        <a href="index.html" class="menu-mobile__link">Inicio</a>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="temario.html" class="menu-mobile__link">Temario
+                        </a>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">Investigaciones
+                        <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="prueba-contenido.html" class="submenu-mobile__link"> Unidad 1 </a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="tareasU2.html" class="submenu-mobile__link"> Unidad 2 </a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="./tareasU3.html" class="submenu-mobile__link"> Unidad 3 </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link">Prueba
+                        <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="examen.html" class="submenu-mobile__link"> Examen </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="criticanos.html" class="menu-mobile__link">Encuesta de satisfacción
+                        </a>
+                    </li>
+
+                    <li class="menu-mobile__item">
+                        <a href="#" class="menu-mobile__link"> Acerca de nosotros
+                        <i class="fa-solid fa-chevron-down menu-mobile__icon"></i>
+                        </a>
+                        <ul class="menu-mobile__submenu-mobile">
+                            <li class="submenu-mobile__item">
+                                <a href="../Acerca-de-nosotros/acerca-de-chimal.html" class="submenu-mobile__link"> Bruno Chimal  </a>
+                            </li>
+                            <li class="submenu-mobile-mobile__item">
+                                <a href="../Acerca-de-nosotros/acerca-de-francisco.html" class="submenu-mobile__link"> Francisco García</a>
+                            </li>
+                            <li class="submenu-mobile__item">
+                                <a href="../Acerca-de-nosotros/acerca-de-daniel.html" class="submenu-mobile__link"> Salas Daniel </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+    <!--Layout Principal-->
+    <div class="layout">
+        <!--MENU-->
+        <section class="layout__menu">
+            <div class="menu__navbar">
+                <!--LOGO-->
+                <div class="navbar__logo">
+                    <a href="#" class="navbar__link-logo">
+                        <img src="./img/newtitle.png" class="navbar__logo-light"/>
+                    </a>
+                </div>
+
+                <!--Booton de menu responsive-->
+                <div class="navbar__mobile-btn">
+                    <button class="mobile-btn__wrap">
+                        <span class="mobile-btn__line"></span>
+                        <span class="mobile-btn__line"></span>
+                        <span class="mobile-btn__line"></span>
+                    </button>
+                </div>
+
+                <!--NAVEGACION-->
+                <nav class="navbar__nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__title">Inicio</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="temario.html" class="nav__title">Temario
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">Investigaciones
+                            <i class="fa-solid fa-chevron-down nav__icon"></i>
+                            </a>
+                            <ul class="nav__submenu">
+                                <li class="submenu__item">
+                                    <a href="prueba-contenido.html" class="submenu__title"> Unidad 1 </a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="tareasU2.html" class="submenu__title"> Unidad 2 </a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="./tareasU3.html" class="submenu__title"> Unidad 3 </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">Prueba
+                            <i class="fa-solid fa-chevron-down nav__icon"></i>
+                            </a>
+                            <ul class="nav__submenu">
+                                <li class="submenu__item">
+                                    <a href="examen.html" class="submenu__title"> Examen </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="criticanos.html" class="nav__title">Encuesta de satisfacción
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#" class="nav__title">Acerca de Nosotros</a>
+                            <i class="fa-solid fa-chevron-down nav__icon"></i>
+                            </a>
+                            <ul class="nav__submenu">
+                                <li class="submenu__item">
+                                    <a href="../Acerca-de-nosotros/acerca-de-chimal.html" class="submenu__title"> Bruno Chimal  </a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="../Acerca-de-nosotros/acerca-de-francisco.html" class="submenu__title"> Francisco García</a>
+                                </li>
+                                <li class="submenu__item">
+                                    <a href="../Acerca-de-nosotros/acerca-de-daniel.html" class="submenu__title"> Salas Daniel </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        
+        <header class="header">
+            <h1 class="header__title"> UA: 3 </h1>
+            <p class="header__subtitle">Desarrollo de la aplicacion multimedia</p>
+        </header>
+        <div class="carousel-container">
+            <button class="carousel-btn prev-btn">❮</button>
+            <div class="carousel">
+              <div class="card">
+                <img src="./img/metaverso.jpg" alt="image">
+                <h3>El metaverso</h3>
+                <p>El metaverso es un entorno digital inmersivo y colectivo donde las personas interactúan a través de avatares, combinando tecnologías como realidad virtual, realidad aumentada y blockchain</p>
+                <button onclick="window.location.href='https://www.xataka.com/basics/que-metaverso-que-posibilidades-ofrece-cuando-sera-real'">Mas informacion</button>
+              </div>
+              <div class="card">
+                <img src="./img/mundoVirtual.webp" alt="image">
+                <h3>Los mundos virtuales y el metaverso</h3>
+                <p>Los mundos virtuales son entornos digitales creados para interactuar, socializar, trabajar o jugar, a menudo en plataformas en línea como videojuegos o simuladores.</p>
+                <button onclick="window.location.href='https://strategicplatform.com/articulos/metaverso-beneficios-del-mundo-virtual-y-su-futuro'">Mas informacion</button>
+              </div>
+              <div class="card">
+                <img src="./img/tipos-de-metversos.webp" alt="image">
+                <h3>Caracteristicas y clasificacion del metaverso</h3>
+                <p>El metaverso se caracteriza por ser un entorno digital inmersivo que permite la interactividad en tiempo real entre los usuarios y el entorno, ofreciendo experiencias inmersivas mediante tecnologías como la realidad virtual (VR) y aumentada (AR)</p>
+                <button onclick="window.location.href='https://itblogsogeti.com/2023/03/30/metaverse-sogeti-series-clasificando-los-diferentes-tipos-de-metaverso/'">Mas informacion</button>
+              </div>
+              <div class="card">
+                <img src="./img/2.3.jpeg" alt="image">
+                <h3>Los metaversos como entornos virtuales</h3>
+                <p>Los metaversos son entornos virtuales inmersivos e interactivos donde las personas pueden socializar, trabajar, aprender y realizar actividades mediante avatares digitales.</p>
+                <button onclick="window.location.href='https://www.computing.es/informes/que-es-el-metaverso-y-que-posibilidades-ofrece/#:~:text=El%20metaverso%20educativo%20es%20un,en%20un%20entorno%20digital%20inmersivo.'">Mas informacion</button>
+              </div>
+              <div class="card">
+                <img src="./img/realidad-aumentada.jpg" alt="Postre 2">
+                <h3>Tendencia de las aplicaciones multimedias</h3>
+                <p>La tendencia de las aplicaciones multimedia se centra en ofrecer experiencias interactivas, personalizadas y accesibles, integrando tecnologías como realidad aumentada, inteligencia artificial y streaming en tiempo real.</p>
+                <button onclick="window.location.href='https://www.humano360.com/el-futuro-de-los-contenidos-multimedia-tendencias-para-el-2024/'">Mas informacion</button>
+              </div>
+              <div class="card">
+                <img src="./img/next.png" alt="Postre 3">
+                <h3>Proceso de desarrollo de una aplicacion multimedia</h3>
+                <p>El proceso de desarrollo de una aplicación multimedia incluye la planificación, diseño, creación de contenido, integración de tecnologías interactivas y pruebas para ofrecer experiencias atractivas y funcionales al usuario.</p>
+                <button onclick="window.location.href='https://www.euroinnova.com/blog/etapas-del-proceso-de-creacion-multimedia'">Mas informacion</button>
+              </div>
+              <div class="card">
+                <img src="./img/Captura de pantalla 2024-12-05 180051.png" alt="Postre 1">
+                <h3>Construccion del back y front end</h3>
+                <p>La construcción del back-end y front-end consiste en desarrollar, respectivamente, la lógica del servidor y la interfaz de usuario para garantizar el funcionamiento y la experiencia visual de una aplicación.</p>
+                <button onclick="window.location.href='https://www.youtube.com/watch?v=cg5fp95IfaQ'">Mas informacion</button>
+              </div>
+              <div class="card">
+                <img src="./img/inter.jpeg" alt="Postre 2">
+                <h3>Diseño de la interfaz de usuario</h3>
+                <p>El diseño de la interfaz de usuario se enfoca en crear interfaces visuales atractivas, intuitivas y funcionales que faciliten la interacción del usuario con una aplicación o sistema.</p>
+                <button onclick="window.location.href='https://www.youtube.com/watch?v=4Azc4Gs2nlU'">Mas informacion</button>
+              </div>
+            </div>
+            <button class="carousel-btn next-btn">❯</button>
+          </div>
+
+          <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Animacion 3D</h2>
+                    <p class="section__paragraph">
+                        Blender es un programa de software de código abierto y gratuito que se utiliza para crear contenido 3D. Es ampliamente reconocido por su versatilidad y capacidad para manejar una amplia gama de tareas relacionadas con gráficos 3D, desde modelado y texturizado hasta animación y renderizado. Blender es utilizado tanto por profesionales como por principiantes en la creación de videojuegos, animación, efectos visuales, arte conceptual y diseño 3D.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Blender es un software de creación 3D que destaca por sus potentes herramientas de modelado, permitiendo crear formas complejas mediante técnicas como modelado poligonal, esculpido digital y subdivisión de superficies. Ofrece opciones avanzadas para texturizado y sombreado, con un motor de materiales basado en nodos que facilita crear efectos visuales realistas. Su sistema de animación es robusto, compatible con rigs esqueléticos, animación por interpolación y simulaciones físicas como partículas, humo, líquidos y telas. Además, Blender incluye un motor de renderizado avanzado, Cycles, que produce imágenes realistas con trazado de rayos, y también un renderizador en tiempo real llamado Eevee para proyectos interactivos.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/4outSDrjY_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Recorrido Virtual</h2>
+                    <p class="section__paragraph">
+                        Blender es un programa de software de código abierto y gratuito que se utiliza para crear contenido 3D. Es ampliamente reconocido por su versatilidad y capacidad para manejar una amplia gama de tareas relacionadas con gráficos 3D, desde modelado y texturizado hasta animación y renderizado. Blender es utilizado tanto por profesionales como por principiantes en la creación de videojuegos, animación, efectos visuales, arte conceptual y diseño 3D.
+                    </p>
+                    <h3 class="section__subheading">Características</h3>
+                    <p class="section__paragraph">
+                        Blender es un software de creación 3D que destaca por sus potentes herramientas de modelado, permitiendo crear formas complejas mediante técnicas como modelado poligonal, esculpido digital y subdivisión de superficies. Ofrece opciones avanzadas para texturizado y sombreado, con un motor de materiales basado en nodos que facilita crear efectos visuales realistas. Su sistema de animación es robusto, compatible con rigs esqueléticos, animación por interpolación y simulaciones físicas como partículas, humo, líquidos y telas. Además, Blender incluye un motor de renderizado avanzado, Cycles, que produce imágenes realistas con trazado de rayos, y también un renderizador en tiempo real llamado Eevee para proyectos interactivos.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/75HcK5FxXSY?si=R7lF9mEUs0PDkpAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Proceso de una aplicacion Multimedia</h2>
+                    <p class="section__paragraph">
+                        El desarrollo de una aplicación multimedia sigue un proceso estructurado que comienza con la definición de objetivos y planificación, donde se identifican las necesidades del público objetivo, el propósito de la aplicación (educativa, de entretenimiento o comercial) y las plataformas en las que estará disponible (web, móvil o multiplataforma). En la fase de diseño conceptual, se crean storyboards, prototipos de la interfaz con herramientas como Figma o Adobe XD, y se seleccionan los recursos multimedia necesarios, como videos, imágenes y audios. Luego, se pasa a la producción de contenido multimedia, que implica diseñar gráficos, grabar y editar videos y audios, y optimizar todos los elementos para garantizar un rendimiento eficiente..
+                    </p>
+                    <h3 class="section__subheading">Desarrollo</h3>
+                    <p class="section__paragraph">
+                        En la fase de desarrollo, se codifica la aplicación integrando los elementos multimedia, añadiendo interactividad y funcionalidad con lenguajes como HTML, CSS, JavaScript o frameworks como React Native o Unity, dependiendo del tipo de aplicación. Una vez terminada, se realizan pruebas funcionales, de usabilidad y compatibilidad para asegurar que la aplicación funcione correctamente en diversos dispositivos. Posteriormente, se realiza la implementación y despliegue, ya sea publicándola en tiendas como App Store o Google Play, o configurando servidores en caso de aplicaciones web. Finalmente, se lleva a cabo el mantenimiento y actualizaciones, corrigiendo errores, mejorando funciones y monitoreando su desempeño.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/_KPbLh8gc9A?si=iL7NbFr6GdsWg1Z_" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Tipos de aplicaciones multimedia</h2>
+                    <p class="section__paragraph">
+                        Las aplicaciones multimedia se pueden clasificar en diferentes tipos según su propósito y funcionalidad. Las aplicaciones educativas están diseñadas para facilitar el aprendizaje mediante elementos como videos, animaciones, simulaciones y ejercicios interactivos, y suelen usarse en entornos académicos y de formación profesional. Las aplicaciones de entretenimiento incluyen videojuegos, reproductores de música y video, y plataformas de streaming, ofreciendo experiencias inmersivas y dinámicas. Las aplicaciones comerciales y de marketing son utilizadas para promocionar productos o servicios, empleando gráficos atractivos, videos promocionales y catálogos interactivos. Las aplicaciones de comunicación integran multimedia en videollamadas, mensajes enriquecidos con imágenes, GIFs, y stickers, como sucede en redes sociales o mensajería instantánea. Por último, las aplicaciones de diseño y creatividad se enfocan en la creación de contenido multimedia, como edición de fotos y videos, diseño 3D, animaciones y producción audiovisual, y son utilizadas tanto por profesionales como por aficionados.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/qHg51yUct2Q?si=VwkHwQgxcR7Ttu0L" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Proceso de produccion de multimedia</h2>
+                    <p class="section__paragraph">
+                        El proceso de producción multimedia es una serie de etapas que garantizan la creación de contenido interactivo y atractivo. Comienza con la preproducción, donde se definen los objetivos, el público objetivo y el alcance del proyecto, además de elaborar guiones, storyboards y un cronograma detallado. En esta fase también se seleccionan los elementos multimedia necesarios, como videos, audios, imágenes y animaciones. La siguiente etapa es la producción, que implica la creación y recopilación de los recursos multimedia. Esto incluye la grabación de audio y video, diseño gráfico, generación de animaciones y cualquier otro material necesario, asegurando la calidad y la coherencia del contenido. Luego, en la etapa de postproducción, se editan y ensamblan los elementos multimedia para dar forma al producto final, utilizando herramientas de edición y software especializado. Finalmente, se realiza la distribución, en la cual el producto multimedia se publica en las plataformas adecuadas, como aplicaciones móviles, sitios web, redes sociales o medios físicos, asegurando que esté optimizado y sea accesible para el público objetivo. Este proceso se complementa con pruebas constantes para garantizar la calidad y funcionalidad del contenido.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/CNfkPUvqV2o?si=8FsE41pIknX5HCse" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section__content">
+                <div class="section__text-content">
+                    <h2 class="section__heading">Preparacion de la preproduccion, produccion y postproduccion</h2>
+                    <p class="section__paragraph">
+                        La preparación de la preproducción, producción y postproducción es el conjunto de actividades necesarias para organizar y ejecutar un proyecto multimedia de manera eficiente.
+                        En la preproducción, se realiza toda la planificación inicial. Esto incluye definir los objetivos del proyecto, identificar el público objetivo, desarrollar guiones, storyboards y conceptos creativos, así como elaborar cronogramas y presupuestos. También se seleccionan los recursos necesarios, como herramientas, locaciones, actores o narradores, y se organiza el equipo de trabajo. La preproducción establece las bases del proyecto y garantiza que todo esté claro antes de comenzar a producir.
+                        Durante la producción, se lleva a cabo la creación del contenido multimedia. En esta etapa se graban los videos, se toman fotografías, se graban audios y se diseñan gráficos o animaciones. Es la fase más activa y creativa, donde todo el material planeado se produce siguiendo las especificaciones del proyecto. Aquí también se asegura la calidad técnica del contenido capturado.
+                        En la postproducción, todo el material generado en la producción es editado y ensamblado para crear el producto final. Se realizan tareas como edición de video, corrección de color, mezcla de sonido, integración de efectos especiales y animaciones, y optimización del contenido para la distribución. Finalmente, se realizan pruebas para garantizar que el producto cumpla con los objetivos y se distribuye en las plataformas o medios adecuados. La preparación de estas tres fases asegura un flujo de trabajo estructurado y eficiente.
+                    </p>
+                </div>
+                <div class="section__divider"></div>
+                <div class="section__iframe">
+                    <iframe class="section__video" src="https://www.youtube.com/embed/np9JbgfByvg?si=EYYQd5I7g4mRvYCC" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+
+        <!--footer-->
+        <footer class="layout__footer">
+            <div class="footer__container">
+                <section class="footer__top"></section>
+
+                <section class="footer__main"></section>
+
+                <section class="footer__bottom">
+                    <div class="footer__copyright">
+                        <span class="copyright__text">
+                            &copy; 2024. Todos los derechos reservados a <a href="https://brunochimal.site">Bruno Chimal</a>.
+                        </span>
+                    </div>
+                    <div class="footer__links">
+                        <ul class="footer__flinks">
+                            <li class="flinks__item flink__item--separator">
+                                <a href="#" class="flinks__title">Politica de privacidad</a>
+                            </li>
+                            <li class="flinks__item">
+                                <a href="#" class="flinks__title">Terminos de uso</a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </footer>
+    </div>   
+</body>
+</html>

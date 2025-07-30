@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         let link = document.createElement("link");
         link.rel = "stylesheet";
         link.type = "text/css";
-        link.href = "./css/dark.css";
+        link.href = "./Inicio/css/dark.css";
         link.id = "theme-dark";
 
 

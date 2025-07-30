@@ -27,3 +27,7 @@ HTML5
 CSS3
 
 JavaScript
+
+
+O BIEN PUEDES DAR CLIC AQUI E IR A LA PAGINA 
+https://magenta-longma-640d22.netlify.app
